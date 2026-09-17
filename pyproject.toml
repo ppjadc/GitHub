@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-market-paper"
+version = "0.1.0"
+description = "Cash-only paper-trading research lane for Kraken FX, PAXG, and documented xStocks."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Jose" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+multi-market-paper = "multi_market_paper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["multi_market_paper*"]
+
+[tool.setuptools.package-data]
+multi_market_paper = ["py.typed"]
