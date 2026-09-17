@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kraken-paper"
+version = "0.1.0"
+description = "Kraken public-REST paper/backtest toolkit for a locked 15m momentum-breakout plan (no live orders)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Jose A. Dominguez" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+kraken-paper = "kraken_paper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kraken_paper*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

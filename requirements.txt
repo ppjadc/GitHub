@@ -1,0 +1,3 @@
+# Runtime: Python 3.10+ stdlib only (urllib, json, argparse, zoneinfo).
+# Tests:
+pytest>=7.0
