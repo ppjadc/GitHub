@@ -45,3 +45,23 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.cache/
+
+# Secrets / env (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*_API_SECRET*
+*_API_KEY*
