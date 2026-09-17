@@ -1,0 +1,21 @@
+# multi_market_paper v0.1.0 | crypto lane kraken_paper=LOCKED | cash-only paper research | no secrets | no live orders
+lane=multi_market_paper mode=scan live_orders=False
+sessions: london=False ny=True overlap=False fx_entry=False
+next London open: 2026-09-18T07:00:00+00:00
+
+FX
+  EUR/USD    last=1.14740 spread=0.0017% vol=28471793 rt_fee=0.40%
+  GBP/USD    last=1.33519 spread=0.0105% vol=5466186 rt_fee=0.40%
+
+GOLD PROXY
+  PAXG/USD   last=4346.94 spread=0.0014% vol=1126.37 rt_fee=1.60%
+
+XSTOCKS (research catalog only — not traded in this lane)
+  SPYx/USD     last=762.43 tradable_here=no
+  QQQx/USD     last=716.42 tradable_here=no
+  GLDx/USD     last=399.82 tradable_here=no
+  AAPLx/USD    last=335.58 tradable_here=no
+
+geo: xStocks are not available in the United States, Australia, Canada, the UK, or other prohibited regions. They are not registered US securities. EEA access may be convert-only (no Kraken Pro / API order book). Always re-check Kraken's availability article before treating a ticker as tradable.
+active macro: FOMC 2026-09-16
+next macro: NFP 2026-10-02

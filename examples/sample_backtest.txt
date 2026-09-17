@@ -1,0 +1,9 @@
+# multi_market_paper v0.1.0 | crypto lane kraken_paper=LOCKED | cash-only paper research | no secrets | no live orders
+lane=multi_market_paper mode=backtest live_orders=False
+days=14 book=$2500
+  fx_london_ny_breakout    EURUSD   taken=0 skipped=11 pnl=$0.00
+    skip/plan mix: fee_skip=10, incomplete_asian_range=1
+  fx_london_ny_breakout    GBPUSD   taken=0 skipped=11 pnl=$0.00
+    skip/plan mix: fee_skip=10, incomplete_asian_range=1
+  paxg_macro_swing         PAXGUSD  taken=0 skipped=15 pnl=$0.00
+    skip/plan mix: fee_skip=1, no_range_breakout_yet=2, not_in_macro_window next=FOMC 2026-09-16=12
